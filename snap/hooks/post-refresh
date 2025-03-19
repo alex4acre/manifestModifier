@@ -1,0 +1,5 @@
+#!/bin/bash -x
+
+# Generate manifest
+#$SNAP/snap/command-chain/snapcraft-runner  generate_manifest.sh
+generate_manifest.sh
