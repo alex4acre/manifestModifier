@@ -1,1 +1,1 @@
-cp -rf $SNAP_DATA/solutions/activeConfiguration/web-redirect/package-assets/package-manifest.json $SNAP_DATA/package-assets/sdk-generate-manifest/changing-world.package-manifest.json
+cp -rf $SNAP_DATA/solutions/activeConfiguration/web-redirect/package-assets/package-manifest.json $SNAP_DATA/package-assets/$SNAP_NAME/package-manifest.json
