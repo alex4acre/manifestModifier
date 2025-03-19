@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-core/apps/package-manifest/package-manifest.v1.3.schema.json",
+  "menus": {
+    "sidebar": [
+      {
+        "id": "web-redirector",
+        "title": "WebIQ Demo Name",
+        "icon": "bosch-ic-desktop-graph",
+        "link": "/webiq/DemoName/",
+        "target": "target"
+      },
+      {
+        "id": "web-redirector2",
+        "title": "Google",
+        "icon": "bosch-ic-desktop-graph",
+        "link": "https://www.Google.com"
+      }
+    ],
+    "overview": [
+      {
+        "id": "web-redirector",
+        "title": "WebIQ Demo Name",
+        "icon": "bosch-ic-desktop-graph",
+        "link": "/webiq/DemoName/",
+        "target": "target"
+      },
+      {
+        "id": "web-redirector2",
+        "title": "Google",
+        "icon": "bosch-ic-desktop-graph",
+        "link": "https://www.Google.com"
+      }
+    ]
+  }
+}

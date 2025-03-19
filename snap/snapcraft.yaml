@@ -17,16 +17,18 @@ parts:
       - wamerican
       - jq
 
+apps:
+  my-service:
+    command: bin/service.sh
+    daemon: simple
+    plugs:
+      - active-solution
+
 plugs:
   active-solution: 
     interface: content
     content: solutions
     target: $SNAP_DATA/solutions
-
-apps:
-  my-service:
-    command: bin/service.sh
-    daemon: simple
 
 slots:
   package-assets:
@@ -35,3 +37,9 @@ slots:
     source:
       read:
       - $SNAP_DATA/package-assets/$SNAPCRAFT_PROJECT_NAME
+
+hooks:
+  connect-plug-active-solution:
+    plugs: [active-solution]   
+  post-refresh:    
+    plugs: [active-solution]   

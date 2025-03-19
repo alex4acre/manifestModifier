@@ -2,4 +2,5 @@
 
 # Generate manifest
 #$SNAP/snap/command-chain/snapcraft-runner  generate_manifest.sh
-generate_manifest.sh
+#generate_manifest.sh
+copyFile.sh
